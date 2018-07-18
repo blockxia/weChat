@@ -1,0 +1,15 @@
+
+  <view class="movieContainer" >
+    <view class="movie_image">
+      <!--../../images/detail/list/j1.jpg-->
+      <image src="{{movie.images.large}}"></image>
+    </view>
+    <text class="movie_name">{{movie.original_title}}</text>
+    <view class="movie_info">
+      <text>评分：{{movie.rating.average}}</text>
+      <text>导演：{{movie.directors[0].name}}</text>
+      <text>主演：{{movie.casts[1].name}}</text>
+    </view>
+    <button>我要观影</button>
+  </view>
+

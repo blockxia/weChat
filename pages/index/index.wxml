@@ -1,0 +1,7 @@
+<view class="intro">
+  <image src='{{userInfo.avatarUrl}}'></image>
+  <text class='user'>hello {{userInfo.nickName}}</text>
+  <view class='intro_content' bindtap='handleclick'>
+    <text>开启小程序之旅</text>
+  </view>
+</view>

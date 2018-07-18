@@ -1,0 +1,34 @@
+.movieContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie_image image{
+  width: 524rpx;
+  height: 700rpx;
+  margin-top: 50rpx;
+}
+.movie_name{
+  width: 600rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin: 10rpx;
+  text-align: center;
+}
+.movie_info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.movie_info text{
+  width: 400rpx;
+  margin: 10rpx;
+  font-size: 26rpx;
+}
+button{
+  width: 524rpx;
+  margin-top: 20rpx;
+  background-color: #32bb46;
+  color: white;
+}

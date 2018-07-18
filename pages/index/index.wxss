@@ -1,0 +1,32 @@
+
+page{
+  background: #e27bff;
+  height: 100%
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.intro image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin: 100rpx 0
+}
+.user{
+  font-size: 34rpx;
+  font-weight: bold;
+  margin: 100rpx 0
+}
+
+.intro .intro_content{
+  width: 200rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #000000;
+  border-radius: 10rpx;
+}
